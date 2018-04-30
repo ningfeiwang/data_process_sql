@@ -6,7 +6,7 @@ import pandas as pd
 
 def connect():
 
-	db_connection = sql.connect( database='uniquemachine', user='root', password='485002wnf')
+	db_connection = sql.connect( database='uniquemachine', user='root', password='******')
 	db_cursor = db_connection.cursor()
 	# db_cursor.execute('SELECT * FROM features')
 	db_cursor.execute('SELECT * FROM features')
